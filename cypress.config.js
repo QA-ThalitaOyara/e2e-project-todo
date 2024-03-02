@@ -6,6 +6,7 @@ module.exports = defineConfig({
     experimentalSessionAndStorageBehavior: true,
     testIsolation: true,
     defaultCommandTimeout: 10000,
-    localStorage: false
+    localStorage: false,
+    experimentalRunAllSpecs: true
   },
 })

@@ -1,4 +1,5 @@
 class taskPage {
+
   static createTask() {
     const tasks = [
       "My first automated task 01",
@@ -29,15 +30,6 @@ class taskPage {
 
   static validateEditForm() {
     cy.get('#edit-form p').should('have.text','Edit your task:')
-  }
-
-  static accessEditForm(){
-
-    this.createTask()
-    this.validateTask()
-    this.clickButton('edit')
-    this.validateEditForm()
-    
   }
 }
 

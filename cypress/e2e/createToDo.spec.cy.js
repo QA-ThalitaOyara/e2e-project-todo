@@ -23,8 +23,4 @@ describe("Create tasks on To Do page", () => {
     taskPage.validateEditForm()
 
   });
-
-  it('Edit Task', () => {
-    taskPage.accessEditForm()
-  });
 });
